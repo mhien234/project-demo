@@ -1,0 +1,41 @@
+test_foreign_host_gets_403 (tests.test_editor.ApiTest.test_foreign_host_gets_403) ... ok
+test_project_roundtrip (tests.test_editor.ApiTest.test_project_roundtrip) ... ok
+test_write_needs_header (tests.test_editor.ApiTest.test_write_needs_header) ... ok
+test_bad_clip (tests.test_editor.CoreTest.test_bad_clip) ... ok
+test_batch_is_one_undo_step (tests.test_editor.CoreTest.test_batch_is_one_undo_step) ... ok
+test_lock_expires_and_user_can_always_edit (tests.test_editor.CoreTest.test_lock_expires_and_user_can_always_edit) ... ok
+test_split (tests.test_editor.CoreTest.test_split) ... ok
+test_stale_copy_is_refused (tests.test_editor.CoreTest.test_stale_copy_is_refused) ... ok
+test_undo_redo (tests.test_editor.CoreTest.test_undo_redo) ... ok
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:35: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='utf-8'>
+  media.run_ffmpeg(args)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:35: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='utf-8'>
+  media.run_ffmpeg(args)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:42: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='utf-8'>
+  media.run_ffmpeg(["-f", "lavfi", "-i", f"aevalsrc={expr}:s=44100:d={seconds}", "-c:a", "pcm_s16le", str(path)])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\tests\test_editor.py:42: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='utf-8'>
+  media.run_ffmpeg(["-f", "lavfi", "-i", f"aevalsrc={expr}:s=44100:d={seconds}", "-c:a", "pcm_s16le", str(path)])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_beat_cut_captions_export (tests.test_editor.EndToEndTest.test_beat_cut_captions_export) ... D:\ba-vạn-chín-nghìn\creative-motion-lab\backend\editor\render.py:149: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='utf-8'>
+  media.run_ffmpeg(args, duration=project.duration, cwd=work_dir,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\ba-vạn-chín-nghìn\creative-motion-lab\backend\editor\render.py:149: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='utf-8'>
+  media.run_ffmpeg(args, duration=project.duration, cwd=work_dir,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_captions_from_subtitle_job (tests.test_editor.EndToEndTest.test_captions_from_subtitle_job) ... ok
+test_gap_becomes_black (tests.test_editor.EndToEndTest.test_gap_becomes_black) ... ok
+test_import_uses_ascii_path (tests.test_editor.EndToEndTest.test_import_uses_ascii_path) ... ok
+test_option_by_version (tests.test_editor.FfmpegVersionTest.test_option_by_version) ... ok
+test_initialize_and_list (tests.test_editor.McpTest.test_initialize_and_list) ... ok
+test_server_down_is_reported_not_crash (tests.test_editor.McpTest.test_server_down_is_reported_not_crash) ... ok
+test_covers_song_and_rotates (tests.test_editor.PlanCutsTest.test_covers_song_and_rotates) ... ok
+test_short_tail_is_merged (tests.test_editor.PlanCutsTest.test_short_tail_is_merged) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 9.167s
+
+OK
